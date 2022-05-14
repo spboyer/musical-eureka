@@ -2,7 +2,11 @@
   "profiles": {
     "Api": {
       "commandName": "Project",
-      "commandLineArgs": "start --cors *"
+      "commandLineArgs": "start --cors *",
+      "environmentVariables": {
+        "NEW_RELIC_LICENSE_KEY": "14d19560f7124ca806e3e00f5ce35b482135NRAL",
+        "NEW_RELIC_APP_NAME": "musicdemo"
+      }
     }
   }
 }
